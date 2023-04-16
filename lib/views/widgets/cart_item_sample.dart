@@ -129,7 +129,7 @@ class CartItemSample extends StatelessWidget {
                               child: IconButton(
                                 onPressed: () {},
                                 icon: const Icon(
-                                  Icons.add,
+                                  CupertinoIcons.minus,
                                   size: 15,
                                   color: kPrimiryColor,
                                 ),

@@ -21,9 +21,9 @@ class ShopApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       routes: {
-        homeScreenId: (context) => const HomeScreen(),
-        cartScreenId: (context) => const CartScreen(),
-        itemScreen :(context) => const ItemScreen(),
+        homeScreenId: (context) =>  HomeScreen(),
+        cartScreenId: (context) =>  CartScreen(),
+        itemScreen :(context) =>  ItemScreen(),
       },
     );
   }
